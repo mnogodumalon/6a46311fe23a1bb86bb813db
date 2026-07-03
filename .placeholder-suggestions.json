@@ -1,0 +1,35 @@
+{
+  "VertraegeDialog.tsx": {
+    "vertragsbezeichnung": "z. B. Lizenz Microsoft 365",
+    "vertragsnummer": "z. B. LZ-2026-001",
+    "kategorie": "z. B. Lizenzvertrag, Dienstleistung",
+    "status": "z. B. Aktiv, In Verhandlung",
+    "partner": "Welcher Partner?",
+    "ansprechpartner": "Welche Person?",
+    "jahresvolumen": "z. B. 12500,00",
+    "startdatum": "Wann beginnt der Vertrag?",
+    "enddatum": "Wann endet der Vertrag?",
+    "kuendigungsfrist": "z. B. 3 Monate, 1 Monat",
+    "kuendigungsdatum": "Wann wurde gekündigt?",
+    "notizen": "Besonderheiten, Laufzeitanpassungen, Rabatte..."
+  },
+  "PartnerDialog.tsx": {
+    "firmenname": "z. B. Acme GmbH",
+    "branche": "z. B. IT & Software, Logistik & Transport",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42a",
+    "postleitzahl": "z. B. 12345",
+    "ort": "z. B. Berlin",
+    "email": "z. B. kontakt@acme.de",
+    "webseite": "z. B. https://acme.de",
+    "notizen": "Besonderheiten, Geschäftsbeziehung, Kontakt-Historie..."
+  },
+  "AnsprechpartnerDialog.tsx": {
+    "vorname": "z. B. Karl",
+    "nachname": "z. B. Müller",
+    "position": "z. B. Geschäftsführer, Projektleiter",
+    "email_ap": "z. B. karl.mueller@acme.de",
+    "telefon_ap": "z. B. +49 30 123456",
+    "partner": "Zu welchem Partner?"
+  }
+}

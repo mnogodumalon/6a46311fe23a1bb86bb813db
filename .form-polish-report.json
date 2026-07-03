@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Verträge": {
+      "placeholders_set": 11,
+      "defaults_keys": ["status", "startdatum", "enddatum"],
+      "computed_keys": [],
+      "reason": "Reine Verwaltungsstammdaten (Verträge, Partner, Ansprechpartner), keine Aggregationen oder Berechnungen. Jahresvolumen ist freie Eingabe ohne Multiplikatoren. Datumspaar (Start/Ende) dient nur der Laufzeitdokumentation, nicht als Dauer-Multiplikator für eine Berechnung."
+    },
+    "Partner": {
+      "placeholders_set": 9,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Firmenstammdaten (Name, Adresse, Kontakt). Keine numerischen Felder außer optionalen Codes. Keine Beziehungen zu Preisen oder Mengen. Keine berechenbaren Größen."
+    },
+    "Ansprechpartner": {
+      "placeholders_set": 6,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Kontaktpersonen-Stammdaten (Name, Position, Email, Zuordnung zu Partner). Keine numerischen Felder, keine Preiskomponenten, keine Multiplikatoren. Applookup zu Partner als reine Zuordnung, keine numerischen Targets."
+    }
+  }
+}

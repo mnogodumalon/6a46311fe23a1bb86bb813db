@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "vertraege",
+      "app_id": "6a46310befb6490de8bc48c2",
+      "path": "/rest/apps/6a46310befb6490de8bc48c2/records",
+      "allowed_fields": [
+        "vertragsbezeichnung",
+        "vertragsnummer",
+        "kategorie",
+        "status",
+        "jahresvolumen",
+        "startdatum",
+        "enddatum",
+        "kuendigungsfrist",
+        "kuendigungsdatum",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Verträge — Formular"
+    },
+    {
+      "entity": "partner",
+      "app_id": "6a463107a68c98dae897d235",
+      "path": "/rest/apps/6a463107a68c98dae897d235/records",
+      "allowed_fields": [
+        "firmenname",
+        "branche",
+        "strasse",
+        "hausnummer",
+        "postleitzahl",
+        "ort",
+        "telefon",
+        "email",
+        "webseite",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Partner — Formular"
+    },
+    {
+      "entity": "ansprechpartner",
+      "app_id": "6a46310a1a639283f3347b68",
+      "path": "/rest/apps/6a46310a1a639283f3347b68/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "position",
+        "email_ap",
+        "telefon_ap"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Ansprechpartner — Formular"
+    }
+  ]
+}

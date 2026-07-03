@@ -1,0 +1,6 @@
+- Verträge (vertraege): vertragsbezeichnung[string/text], vertragsnummer[string/text], kategorie[lookup/select], status[lookup/select], partner[applookup/select], ansprechpartner[applookup/select], jahresvolumen[number], startdatum[date/date], enddatum[date/date], kuendigungsfrist[lookup/select], kuendigungsdatum[date/date], vertragsdokument[file], notizen[string/textarea]
+  → partner links to app_id 6a463107a68c98dae897d235
+  → ansprechpartner links to app_id 6a46310a1a639283f3347b68
+- Partner (partner): firmenname[string/text], branche[lookup/select], strasse[string/text], hausnummer[string/text], postleitzahl[string/text], ort[string/text], telefon[string/tel], email[string/email], webseite[string/url], notizen[string/textarea]
+- Ansprechpartner (ansprechpartner): vorname[string/text], nachname[string/text], position[string/text], email_ap[string/email], telefon_ap[string/tel], partner[applookup/select]
+  → partner links to app_id 6a463107a68c98dae897d235
