@@ -19,6 +19,7 @@ import PublicFormAnsprechpartner from '@/pages/public/PublicForm_Ansprechpartner
 // <public:imports>
 // </public:imports>
 // <custom:imports>
+const NeuerVertragPage = lazy(() => import('@/pages/intents/NeuerVertragPage'));
 // </custom:imports>
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
                 <Route path="ansprechpartner/:id" element={<AnsprechpartnerDetailPage />} />
                 <Route path="admin" element={<AdminPage />} />
                 {/* <custom:routes> */}
+                <Route path="intents/neuer-vertrag" element={<Suspense fallback={null}><NeuerVertragPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>
